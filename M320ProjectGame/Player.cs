@@ -10,6 +10,6 @@
     public void Attack(Enemy enemy)
     {
         Console.WriteLine($"{Name} attacks {enemy.Name}!");
-        enemy.TakeDamage(attackPower);
+        enemy.TakeDamage(attackPower);  // Decreases enemy's health
     }
 }

@@ -8,19 +8,24 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Pascal Bossert\\.nuget\\packages\\": {}
+    "C:\\Users\\Pascal Bossert\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Pascal Bossert\\RiderProjects\\M320_Project_Game\\M320_Project_Game\\M320_Project_Game.csproj",
-      "projectName": "M320_Project_Game",
-      "projectPath": "C:\\Users\\Pascal Bossert\\RiderProjects\\M320_Project_Game\\M320_Project_Game\\M320_Project_Game.csproj",
+      "projectUniqueName": "C:\\Users\\Pascal Bossert\\RiderProjects\\M320_Project_Game\\M320ProjectGame\\M320ProjectGame.csproj",
+      "projectName": "M320ProjectGame",
+      "projectPath": "C:\\Users\\Pascal Bossert\\RiderProjects\\M320_Project_Game\\M320ProjectGame\\M320ProjectGame.csproj",
       "packagesPath": "C:\\Users\\Pascal Bossert\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Pascal Bossert\\RiderProjects\\M320_Project_Game\\M320_Project_Game\\obj\\",
+      "outputPath": "C:\\Users\\Pascal Bossert\\RiderProjects\\M320_Project_Game\\M320ProjectGame\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
         "C:\\Users\\Pascal Bossert\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -28,7 +33,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -67,7 +71,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Users\\Pascal Bossert\\.dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

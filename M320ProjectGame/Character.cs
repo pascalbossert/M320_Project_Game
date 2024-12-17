@@ -1,18 +1,18 @@
 ﻿public class Character
 {
     public string Name { get; }
-    protected int health;
+    public int Health { get; set; }  // Public health property
 
     public Character(string name, int health)
     {
         Name = name;
-        this.health = health;
+        Health = health;
     }
 
     public virtual void TakeDamage(int damage)
     {
-        health -= damage;
-        if (health <= 0)
+        Health -= damage;
+        if (Health <= 0)
         {
             Console.WriteLine($"{Name} defeated!");
         }
