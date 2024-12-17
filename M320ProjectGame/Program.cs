@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿namespace M320_Project_Game;
 
 public class Program
 {

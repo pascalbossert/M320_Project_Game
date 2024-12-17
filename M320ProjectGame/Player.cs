@@ -1,4 +1,6 @@
-﻿public class Player : Character
+﻿namespace M320_Project_Game;
+
+public class Player : Character
 {
     private int attackPower;
 
@@ -10,6 +12,6 @@
     public void Attack(Enemy enemy)
     {
         Console.WriteLine($"{Name} attacks {enemy.Name}!");
-        enemy.TakeDamage(attackPower);  // Decreases enemy's health
+        enemy.TakeDamage(attackPower);
     }
 }

@@ -1,14 +1,16 @@
-﻿public class Character
+﻿namespace M320_Project_Game;
+
+public class Character
 {
     public string Name { get; }
-    public int Health { get; set; }  // Public health property
+    public int Health { get; set; }
 
     public Character(string name, int health)
     {
         Name = name;
         Health = health;
     }
-
+    
     public virtual void TakeDamage(int damage)
     {
         Health -= damage;

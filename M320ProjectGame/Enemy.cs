@@ -1,4 +1,6 @@
-﻿public class Enemy : Character
+﻿namespace M320_Project_Game;
+
+public class Enemy : Character
 {
     public Enemy(string name, int health) : base(name, health) { }
 

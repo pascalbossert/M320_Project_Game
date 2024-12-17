@@ -1,4 +1,6 @@
-﻿public class Game
+﻿namespace M320_Project_Game;
+
+public class Game
 {
     private List<Player> players;
     private List<Enemy> enemies;
