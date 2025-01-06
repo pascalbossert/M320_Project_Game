@@ -21,15 +21,27 @@ public class Game
         enemies.Add(enemy);
     }
 
-    public void Start()
-    {
-        Console.WriteLine("Game started!");
-        foreach (var player in players)
-        {
-            foreach (var enemy in enemies)
-            {
-                player.Attack(enemy);
-            }
-        }
-    }
+   public void Start()
+   {
+       Console.WriteLine("Game started!");
+   
+       while (enemies.Count > 0)
+       {
+           foreach (var player in players)
+           {
+               foreach (var enemy in enemies.ToList())
+               {
+                   player.Attack(enemy);
+   
+                   if (enemy.Health <= 0)
+                   {
+                       Console.WriteLine($"{enemy.Name} has been defeated!");
+                       enemies.Remove(enemy);
+                   }
+               }
+           }
+       }
+   
+       Console.WriteLine("Victory! All enemies have been defeated!");
+   }
 }
